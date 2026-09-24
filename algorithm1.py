@@ -110,6 +110,48 @@ def merge_close_lines(lines, merge_frac=0.5):
     return merged
 
 
+def remove_doubled_long_rests(lines):
+    """Merge consecutive same-type long-rest detections within each staff
+    line when no bar separates them.
+
+    A very wide rest can occasionally be detected as two boxes.  Because
+    lines are ordered left-to-right, consecutive matching long-rest classes
+    represent such a split unless a bar-like detection occurs between them.
+    The replacement box is the union of the two boxes, allowing downstream
+    OCR to read the duration from the complete glyph.
+    """
+    long_rest_classes = ("long rest", "long rest bottom")
+    bar_classes = ("bar", "repeat bar", "double bar")
+
+    for line in lines:
+        merged_line = []
+        for pred in line:
+            if (
+                merged_line
+                and pred["class"] in long_rest_classes
+                and merged_line[-1]["class"] == pred["class"]
+                and merged_line[-1]["class"] not in bar_classes
+            ):
+                previous = merged_line[-1]
+                x1 = min(previous["x"] - previous["width"] / 2,
+                         pred["x"] - pred["width"] / 2)
+                y1 = min(previous["y"] - previous["height"] / 2,
+                         pred["y"] - pred["height"] / 2)
+                x2 = max(previous["x"] + previous["width"] / 2,
+                         pred["x"] + pred["width"] / 2)
+                y2 = max(previous["y"] + previous["height"] / 2,
+                         pred["y"] + pred["height"] / 2)
+                previous["x"] = (x1 + x2) / 2
+                previous["y"] = (y1 + y2) / 2
+                previous["width"] = x2 - x1
+                previous["height"] = y2 - y1
+            else:
+                merged_line.append(pred)
+        line[:] = merged_line
+
+    return lines
+
+
 def insert_endings(lines, ending_preds):
     """Assign each "ending" detection to the line containing the closest
     detection that lies below it, then insert it into that line in
@@ -209,22 +251,30 @@ def to_label_strings(lines, rest_duration_fn):
 
 def draw_measure_numbers(image, annotated_lines, font=cv2.FONT_HERSHEY_SIMPLEX,
                           font_scale=0.8, color=(0, 0, 0), thickness=2, gap=15):
-    """Draw each staff line's starting measure number onto `image`, just to
-    the left of that line, vertically centered on its detections. Mutates
-    `image` in place and also returns it."""
+    """Draw each line's preceding measure number near the image's left
+    edge, vertically aligned with that line.  Except on the first line,
+    the displayed number is taken from the rightmost detection of the
+    preceding line.  Mutates `image` in place and also returns it."""
+    previous_rightmost_measure_num = None
     for line in annotated_lines:
         if not line:
             continue
-        measure_num = line[0]["measure_number"]
+
         detections = [entry["detection"] for entry in line]
         text_y = int(sum(d["y"] for d in detections) / len(detections))
-        leftmost_x = int(min(d["x"] - d["width"] / 2 for d in detections))
+        measure_num = (previous_rightmost_measure_num
+                       if previous_rightmost_measure_num is not None
+                       else line[0]["measure_number"])
 
         text = str(measure_num)
-        (text_w, text_h), _ = cv2.getTextSize(text, font, font_scale, thickness)
-        text_x = max(0, leftmost_x - text_w - gap)
+        (_, text_h), _ = cv2.getTextSize(text, font, font_scale, thickness)
+        text_x = gap
 
         cv2.putText(image, text, (text_x, text_y + text_h // 2),
                     font, font_scale, color, thickness, cv2.LINE_AA)
+
+        previous_rightmost_measure_num = max(
+            line, key=lambda entry: entry["detection"]["x"]
+        )["measure_number"]
 
     return image

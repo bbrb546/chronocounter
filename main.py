@@ -86,16 +86,18 @@ def run_pipeline(image_path, api_key):
     """
     preds = roboflow_runner.get_predictions(image_path, api_key)
 
-    # Long rests need their printed measure-count read via OCR before
-    # measure numbers can be assigned.
-    algorithm2.ocr_annotate_long_rests(preds, image_path, api_key)
-
     ending_preds = [p for p in preds if p["class"] == "ending"]
     other_preds = [p for p in preds if p["class"] != "ending"]
 
     lines = algorithm1.group_into_lines(other_preds)
     lines = algorithm1.merge_close_lines(lines)
+    lines = algorithm1.remove_doubled_long_rests(lines)
     #lines = algorithm1.insert_endings(lines, ending_preds) # ignoring endings for now
+
+    # Read long-rest durations after split detections have been merged.
+    algorithm2.ocr_annotate_long_rests(
+        [pred for line in lines for pred in line], image_path, api_key
+    )
 
     labels = algorithm1.to_label_strings(lines, algorithm2.duration_from_ocr)
     annotated = algorithm1.annotate_measure_numbers(lines, algorithm2.duration_from_ocr)
