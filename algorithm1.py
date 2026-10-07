@@ -45,6 +45,8 @@ def group_into_lines(preds, y_window=60, dist_thresh=None, ransac_iters=200,
     rng = random.Random(seed)
     pts = [(p["x"], p["y"], p) for p in preds]
     heights = [p["height"] for p in preds]
+    if not heights:
+        return []
     if dist_thresh is None:
         heights_sorted = sorted(heights)
         dist_thresh = heights_sorted[len(heights_sorted) // 2] * 0.5  # half of median box height
@@ -186,7 +188,7 @@ def insert_endings(lines, ending_preds):
     return lines
 
 
-def annotate_measure_numbers(lines, rest_duration_fn):
+def annotate_measure_numbers(lines, rest_duration_fn, initial_measure_number=1):
     """Walk the line-grouped detections in reading order, tagging each with
     its measure number.
 
@@ -199,30 +201,35 @@ def annotate_measure_numbers(lines, rest_duration_fn):
       - anything else is tagged with the current measure number but does
         not advance the counter.
 
+    initial_measure_number labels the first bar or long rest on this page,
+    including a bar that repeats the final measure number of a prior page.
+    It defaults to 1 for a standalone page.
+
     Returns the same array-of-arrays shape, with each pred dict replaced by
     {"class": ..., "measure_number": ..., "detection": pred_dict}.
     """
-    measure_num = 0
+    measure_num = initial_measure_number
+    first_counted_detection = True
     annotated = []
     pcls = "fpbar" # pretend a "fake previous bar" was seen before the first line
     for line in lines:
         line_out = []
         for p in line:
-            
             cls = p["class"]
+            entry = {"class": cls, "measure_number": measure_num, "detection": p}
             if cls in ("long rest", "long rest bottom"):
-                if pcls == "fpbar":
-                    measure_num += 1
-                entry = {"class": cls, "measure_number": measure_num, "detection": p}
+                first_counted_detection = False
                 n = rest_duration_fn(p)
                 entry["measures_spanned"] = n
                 measure_num += n
-            elif cls in ("bar", "repeat bar", "double bar") and pcls in ("bar", "repeat bar", "double bar", "pbar", "fpbar"):
-                measure_num += 1
-                entry = {"class": cls, "measure_number": measure_num, "detection": p}
             elif cls in ("bar", "repeat bar", "double bar"):
-                entry = {"class": cls, "measure_number": measure_num, "detection": p}
-            
+                if not first_counted_detection and pcls in (
+                    "bar", "repeat bar", "double bar", "pbar", "fpbar"
+                ):
+                    measure_num += 1
+                entry["measure_number"] = measure_num
+                first_counted_detection = False
+
             line_out.append(entry)
 
             pcls = cls
