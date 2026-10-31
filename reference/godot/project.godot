@@ -1,0 +1,55 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Chronocounter"
+run/main_scene="res://scenes/main_menu/main_menu.tscn"
+config/quit_on_go_back=false
+config/features=PackedStringArray("4.6", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+Settings="*res://autoload/Settings.gd"
+AppState="*res://autoload/AppState.gd"
+ApiClient="*res://autoload/ApiClient.gd"
+Router="*res://autoload/Router.gd"
+Haptics="*res://autoload/Haptics.gd"
+GestureState="*res://autoload/GestureState.gd"
+
+[display]
+
+window/size/viewport_width=1080
+window/size/viewport_height=1920
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/NativeCameraPlugin/plugin.cfg")
+
+[gui]
+
+theme/custom="res://theme/app_theme.tres"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0.05490196, 0.05882353, 0.07058824, 1)
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true

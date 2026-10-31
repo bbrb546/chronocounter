@@ -1,0 +1,340 @@
+[
+  [
+    {
+      "class": "bar",
+      "x": 475.0,
+      "y": 183.0,
+      "width": 24.0,
+      "height": 72.0,
+      "measure_number": 36
+    },
+    {
+      "class": "bar",
+      "x": 753.5,
+      "y": 193.5,
+      "width": 17.0,
+      "height": 65.0,
+      "measure_number": 37
+    },
+    {
+      "class": "bar",
+      "x": 1094.5,
+      "y": 201.5,
+      "width": 19.0,
+      "height": 67.0,
+      "measure_number": 38
+    },
+    {
+      "class": "bar",
+      "x": 1452.0,
+      "y": 213.0,
+      "width": 18.0,
+      "height": 66.0,
+      "measure_number": 39
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 372.0,
+      "y": 403.5,
+      "width": 18.0,
+      "height": 71.0,
+      "measure_number": 40
+    },
+    {
+      "class": "bar",
+      "x": 584.0,
+      "y": 405.5,
+      "width": 20.0,
+      "height": 71.0,
+      "measure_number": 41
+    },
+    {
+      "class": "bar",
+      "x": 793.0,
+      "y": 408.5,
+      "width": 16.0,
+      "height": 71.0,
+      "measure_number": 42
+    },
+    {
+      "class": "bar",
+      "x": 1050.5,
+      "y": 411.0,
+      "width": 17.0,
+      "height": 70.0,
+      "measure_number": 43
+    },
+    {
+      "class": "bar",
+      "x": 1251.5,
+      "y": 413.0,
+      "width": 17.0,
+      "height": 70.0,
+      "measure_number": 44
+    },
+    {
+      "class": "bar",
+      "x": 1452.0,
+      "y": 418.0,
+      "width": 16.0,
+      "height": 72.0,
+      "measure_number": 45
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 417.5,
+      "y": 615.5,
+      "width": 19.0,
+      "height": 69.0,
+      "measure_number": 46
+    },
+    {
+      "class": "bar",
+      "x": 666.5,
+      "y": 612.0,
+      "width": 17.0,
+      "height": 56.0,
+      "measure_number": 47
+    },
+    {
+      "class": "bar",
+      "x": 909.0,
+      "y": 616.0,
+      "width": 18.0,
+      "height": 70.0,
+      "measure_number": 48
+    },
+    {
+      "class": "repeat bar",
+      "x": 1164.5,
+      "y": 617.0,
+      "width": 39.0,
+      "height": 70.0,
+      "measure_number": 49
+    },
+    {
+      "class": "double bar",
+      "x": 1412.0,
+      "y": 612.5,
+      "width": 24.0,
+      "height": 55.0,
+      "measure_number": 50
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 531.0,
+      "y": 825.0,
+      "width": 18.0,
+      "height": 66.0,
+      "measure_number": 51
+    },
+    {
+      "class": "bar",
+      "x": 843.0,
+      "y": 824.5,
+      "width": 16.0,
+      "height": 65.0,
+      "measure_number": 52
+    },
+    {
+      "class": "bar",
+      "x": 1152.0,
+      "y": 820.5,
+      "width": 18.0,
+      "height": 67.0,
+      "measure_number": 53
+    },
+    {
+      "class": "bar",
+      "x": 1455.0,
+      "y": 819.5,
+      "width": 20.0,
+      "height": 69.0,
+      "measure_number": 54
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 511.0,
+      "y": 1029.0,
+      "width": 16.0,
+      "height": 70.0,
+      "measure_number": 55
+    },
+    {
+      "class": "bar",
+      "x": 835.5,
+      "y": 1025.0,
+      "width": 19.0,
+      "height": 70.0,
+      "measure_number": 56
+    },
+    {
+      "class": "bar",
+      "x": 1159.0,
+      "y": 1021.0,
+      "width": 16.0,
+      "height": 68.0,
+      "measure_number": 57
+    },
+    {
+      "class": "bar",
+      "x": 1457.0,
+      "y": 1020.0,
+      "width": 18.0,
+      "height": 68.0,
+      "measure_number": 58
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 511.5,
+      "y": 1233.5,
+      "width": 17.0,
+      "height": 67.0,
+      "measure_number": 59
+    },
+    {
+      "class": "bar",
+      "x": 835.5,
+      "y": 1225.5,
+      "width": 17.0,
+      "height": 67.0,
+      "measure_number": 60
+    },
+    {
+      "class": "bar",
+      "x": 1161.5,
+      "y": 1223.5,
+      "width": 15.0,
+      "height": 65.0,
+      "measure_number": 61
+    },
+    {
+      "class": "bar",
+      "x": 1460.5,
+      "y": 1221.0,
+      "width": 21.0,
+      "height": 68.0,
+      "measure_number": 62
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 457.0,
+      "y": 1440.0,
+      "width": 14.0,
+      "height": 66.0,
+      "measure_number": 63
+    },
+    {
+      "class": "bar",
+      "x": 729.0,
+      "y": 1431.0,
+      "width": 14.0,
+      "height": 66.0,
+      "measure_number": 64
+    },
+    {
+      "class": "bar",
+      "x": 998.5,
+      "y": 1428.5,
+      "width": 15.0,
+      "height": 69.0,
+      "measure_number": 65
+    },
+    {
+      "class": "double bar",
+      "x": 1254.0,
+      "y": 1428.5,
+      "width": 24.0,
+      "height": 69.0,
+      "measure_number": 66
+    },
+    {
+      "class": "bar",
+      "x": 1463.5,
+      "y": 1422.5,
+      "width": 17.0,
+      "height": 73.0,
+      "measure_number": 67
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 510.0,
+      "y": 1643.5,
+      "width": 20.0,
+      "height": 67.0,
+      "measure_number": 68
+    },
+    {
+      "class": "bar",
+      "x": 830.5,
+      "y": 1632.0,
+      "width": 19.0,
+      "height": 68.0,
+      "measure_number": 69
+    },
+    {
+      "class": "bar",
+      "x": 1151.0,
+      "y": 1629.0,
+      "width": 18.0,
+      "height": 62.0,
+      "measure_number": 70
+    },
+    {
+      "class": "bar",
+      "x": 1466.0,
+      "y": 1626.5,
+      "width": 20.0,
+      "height": 73.0,
+      "measure_number": 71
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 464.5,
+      "y": 1858.0,
+      "width": 19.0,
+      "height": 74.0,
+      "measure_number": 72
+    },
+    {
+      "class": "bar",
+      "x": 741.0,
+      "y": 1835.0,
+      "width": 18.0,
+      "height": 74.0,
+      "measure_number": 73
+    },
+    {
+      "class": "bar",
+      "x": 1088.0,
+      "y": 1824.5,
+      "width": 14.0,
+      "height": 65.0,
+      "measure_number": 74
+    },
+    {
+      "class": "double bar",
+      "x": 1463.5,
+      "y": 1830.0,
+      "width": 33.0,
+      "height": 70.0,
+      "measure_number": 75
+    }
+  ]
+]

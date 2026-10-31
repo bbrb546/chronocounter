@@ -1,0 +1,1202 @@
+[
+  [
+    {
+      "class": "bar",
+      "x": 340.0,
+      "y": 269.5,
+      "width": 32.0,
+      "height": 105.0,
+      "measure_number": 2
+    },
+    {
+      "class": "bar",
+      "x": 513.5,
+      "y": 270.5,
+      "width": 31.0,
+      "height": 97.0,
+      "measure_number": 3
+    },
+    {
+      "class": "bar",
+      "x": 690.0,
+      "y": 272.0,
+      "width": 38.0,
+      "height": 104.0,
+      "measure_number": 4
+    },
+    {
+      "class": "bar",
+      "x": 909.5,
+      "y": 270.0,
+      "width": 39.0,
+      "height": 104.0,
+      "measure_number": 5
+    },
+    {
+      "class": "bar",
+      "x": 1018.0,
+      "y": 271.5,
+      "width": 38.0,
+      "height": 109.0,
+      "measure_number": 6
+    },
+    {
+      "class": "bar",
+      "x": 1188.0,
+      "y": 274.5,
+      "width": 34.0,
+      "height": 101.0,
+      "measure_number": 7
+    },
+    {
+      "class": "bar",
+      "x": 1378.5,
+      "y": 276.5,
+      "width": 41.0,
+      "height": 103.0,
+      "measure_number": 8
+    },
+    {
+      "class": "bar",
+      "x": 1539.5,
+      "y": 277.5,
+      "width": 39.0,
+      "height": 105.0,
+      "measure_number": 9
+    },
+    {
+      "class": "bar",
+      "x": 1695.0,
+      "y": 279.0,
+      "width": 36.0,
+      "height": 94.0,
+      "measure_number": 10
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 316.5,
+      "y": 464.0,
+      "width": 39.0,
+      "height": 108.0,
+      "measure_number": 11
+    },
+    {
+      "class": "long rest bottom",
+      "x": 397.0,
+      "y": 473.5,
+      "width": 188.0,
+      "height": 111.0,
+      "measure_number": 11,
+      "measures_spanned": 14,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 480.5,
+      "y": 465.0,
+      "width": 35.0,
+      "height": 98.0,
+      "measure_number": 25
+    },
+    {
+      "class": "long rest bottom",
+      "x": 526.5,
+      "y": 473.5,
+      "width": 115.0,
+      "height": 113.0,
+      "measure_number": 25,
+      "measures_spanned": 4,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 574.0,
+      "y": 463.5,
+      "width": 36.0,
+      "height": 105.0,
+      "measure_number": 29
+    },
+    {
+      "class": "long rest bottom",
+      "x": 722.0,
+      "y": 476.5,
+      "width": 314.0,
+      "height": 109.0,
+      "measure_number": 29,
+      "measures_spanned": 4,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 869.5,
+      "y": 466.5,
+      "width": 33.0,
+      "height": 89.0,
+      "measure_number": 33
+    },
+    {
+      "class": "long rest bottom",
+      "x": 1005.5,
+      "y": 479.0,
+      "width": 293.0,
+      "height": 108.0,
+      "measure_number": 33,
+      "measures_spanned": 19,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 1161.5,
+      "y": 466.0,
+      "width": 41.0,
+      "height": 108.0,
+      "measure_number": 52
+    },
+    {
+      "class": "long rest",
+      "x": 1210.5,
+      "y": 458.5,
+      "width": 123.0,
+      "height": 111.0,
+      "measure_number": 52,
+      "measures_spanned": 4,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 1259.5,
+      "y": 466.0,
+      "width": 37.0,
+      "height": 108.0,
+      "measure_number": 56
+    },
+    {
+      "class": "bar",
+      "x": 1408.5,
+      "y": 465.5,
+      "width": 35.0,
+      "height": 105.0,
+      "measure_number": 57
+    },
+    {
+      "class": "bar",
+      "x": 1566.5,
+      "y": 470.5,
+      "width": 41.0,
+      "height": 115.0,
+      "measure_number": 58
+    },
+    {
+      "class": "bar",
+      "x": 1695.0,
+      "y": 468.0,
+      "width": 40.0,
+      "height": 96.0,
+      "measure_number": 59
+    }
+  ],
+  [
+    {
+      "class": "long rest",
+      "x": 223.0,
+      "y": 641.0,
+      "width": 146.0,
+      "height": 108.0,
+      "measure_number": 59,
+      "measures_spanned": 3,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 284.0,
+      "y": 651.0,
+      "width": 38.0,
+      "height": 98.0,
+      "measure_number": 62
+    },
+    {
+      "class": "bar",
+      "x": 474.5,
+      "y": 652.0,
+      "width": 35.0,
+      "height": 90.0,
+      "measure_number": 63
+    },
+    {
+      "class": "bar",
+      "x": 672.0,
+      "y": 655.0,
+      "width": 40.0,
+      "height": 94.0,
+      "measure_number": 64
+    },
+    {
+      "class": "bar",
+      "x": 856.0,
+      "y": 655.5,
+      "width": 44.0,
+      "height": 103.0,
+      "measure_number": 65
+    },
+    {
+      "class": "long rest",
+      "x": 905.5,
+      "y": 647.5,
+      "width": 127.0,
+      "height": 113.0,
+      "measure_number": 65,
+      "measures_spanned": 1,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 955.0,
+      "y": 656.5,
+      "width": 42.0,
+      "height": 97.0,
+      "measure_number": 66
+    },
+    {
+      "class": "long rest",
+      "x": 1014.0,
+      "y": 651.0,
+      "width": 140.0,
+      "height": 110.0,
+      "measure_number": 66,
+      "measures_spanned": 5,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 1071.0,
+      "y": 660.0,
+      "width": 42.0,
+      "height": 102.0,
+      "measure_number": 71
+    },
+    {
+      "class": "long rest bottom",
+      "x": 1130.0,
+      "y": 670.0,
+      "width": 138.0,
+      "height": 106.0,
+      "measure_number": 71,
+      "measures_spanned": 2,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 1191.0,
+      "y": 659.0,
+      "width": 38.0,
+      "height": 98.0,
+      "measure_number": 73
+    },
+    {
+      "class": "bar",
+      "x": 1287.5,
+      "y": 659.5,
+      "width": 35.0,
+      "height": 101.0,
+      "measure_number": 74
+    },
+    {
+      "class": "bar",
+      "x": 1389.5,
+      "y": 657.5,
+      "width": 35.0,
+      "height": 97.0,
+      "measure_number": 75
+    },
+    {
+      "class": "bar",
+      "x": 1561.0,
+      "y": 658.5,
+      "width": 40.0,
+      "height": 97.0,
+      "measure_number": 76
+    },
+    {
+      "class": "long rest",
+      "x": 1628.5,
+      "y": 649.0,
+      "width": 149.0,
+      "height": 102.0,
+      "measure_number": 76,
+      "measures_spanned": 1,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 1693.5,
+      "y": 657.0,
+      "width": 35.0,
+      "height": 98.0,
+      "measure_number": 77
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 627.5,
+      "y": 841.5,
+      "width": 25.0,
+      "height": 87.0,
+      "measure_number": 78
+    },
+    {
+      "class": "bar",
+      "x": 836.5,
+      "y": 841.5,
+      "width": 37.0,
+      "height": 97.0,
+      "measure_number": 79
+    },
+    {
+      "class": "bar",
+      "x": 946.0,
+      "y": 841.5,
+      "width": 40.0,
+      "height": 95.0,
+      "measure_number": 80
+    },
+    {
+      "class": "long rest bottom",
+      "x": 995.5,
+      "y": 853.5,
+      "width": 117.0,
+      "height": 107.0,
+      "measure_number": 80,
+      "measures_spanned": 1,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 1045.5,
+      "y": 845.0,
+      "width": 41.0,
+      "height": 110.0,
+      "measure_number": 81
+    },
+    {
+      "class": "long rest bottom",
+      "x": 1093.5,
+      "y": 856.5,
+      "width": 117.0,
+      "height": 109.0,
+      "measure_number": 81,
+      "measures_spanned": 2,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 1157.5,
+      "y": 845.0,
+      "width": 45.0,
+      "height": 114.0,
+      "measure_number": 83
+    },
+    {
+      "class": "bar",
+      "x": 1300.5,
+      "y": 844.0,
+      "width": 41.0,
+      "height": 104.0,
+      "measure_number": 84
+    },
+    {
+      "class": "long rest",
+      "x": 1352.5,
+      "y": 837.0,
+      "width": 121.0,
+      "height": 106.0,
+      "measure_number": 84,
+      "measures_spanned": 1,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 1403.5,
+      "y": 845.0,
+      "width": 37.0,
+      "height": 100.0,
+      "measure_number": 85
+    },
+    {
+      "class": "bar",
+      "x": 1542.5,
+      "y": 844.0,
+      "width": 37.0,
+      "height": 104.0,
+      "measure_number": 86
+    },
+    {
+      "class": "bar",
+      "x": 1694.0,
+      "y": 847.0,
+      "width": 40.0,
+      "height": 104.0,
+      "measure_number": 87
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 330.0,
+      "y": 1024.5,
+      "width": 36.0,
+      "height": 89.0,
+      "measure_number": 88
+    },
+    {
+      "class": "long rest",
+      "x": 380.0,
+      "y": 1013.0,
+      "width": 120.0,
+      "height": 104.0,
+      "measure_number": 88,
+      "measures_spanned": 1,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 429.5,
+      "y": 1020.5,
+      "width": 33.0,
+      "height": 93.0,
+      "measure_number": 89
+    },
+    {
+      "class": "bar",
+      "x": 592.5,
+      "y": 1022.0,
+      "width": 41.0,
+      "height": 100.0,
+      "measure_number": 90
+    },
+    {
+      "class": "long rest",
+      "x": 646.0,
+      "y": 1013.0,
+      "width": 126.0,
+      "height": 108.0,
+      "measure_number": 90,
+      "measures_spanned": 1,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 696.5,
+      "y": 1022.0,
+      "width": 43.0,
+      "height": 102.0,
+      "measure_number": 91
+    },
+    {
+      "class": "bar",
+      "x": 867.0,
+      "y": 1052.5,
+      "width": 48.0,
+      "height": 57.0,
+      "measure_number": 92
+    },
+    {
+      "class": "long rest",
+      "x": 916.0,
+      "y": 1018.0,
+      "width": 120.0,
+      "height": 104.0,
+      "measure_number": 92,
+      "measures_spanned": 6,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 963.5,
+      "y": 1028.0,
+      "width": 41.0,
+      "height": 102.0,
+      "measure_number": 98
+    },
+    {
+      "class": "bar",
+      "x": 1072.5,
+      "y": 1031.0,
+      "width": 43.0,
+      "height": 110.0,
+      "measure_number": 99
+    },
+    {
+      "class": "bar",
+      "x": 1182.0,
+      "y": 1034.0,
+      "width": 40.0,
+      "height": 112.0,
+      "measure_number": 100
+    },
+    {
+      "class": "bar",
+      "x": 1282.5,
+      "y": 1034.5,
+      "width": 39.0,
+      "height": 115.0,
+      "measure_number": 101
+    },
+    {
+      "class": "bar",
+      "x": 1380.0,
+      "y": 1055.5,
+      "width": 36.0,
+      "height": 63.0,
+      "measure_number": 102
+    },
+    {
+      "class": "bar",
+      "x": 1484.0,
+      "y": 1053.5,
+      "width": 38.0,
+      "height": 59.0,
+      "measure_number": 103
+    },
+    {
+      "class": "bar",
+      "x": 1589.0,
+      "y": 1053.5,
+      "width": 38.0,
+      "height": 59.0,
+      "measure_number": 104
+    },
+    {
+      "class": "long rest",
+      "x": 1640.5,
+      "y": 1019.5,
+      "width": 119.0,
+      "height": 103.0,
+      "measure_number": 104,
+      "measures_spanned": 2,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 1692.5,
+      "y": 1050.0,
+      "width": 37.0,
+      "height": 52.0,
+      "measure_number": 106
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 595.0,
+      "y": 1190.0,
+      "width": 38.0,
+      "height": 108.0,
+      "measure_number": 107
+    },
+    {
+      "class": "bar",
+      "x": 811.0,
+      "y": 1191.0,
+      "width": 40.0,
+      "height": 108.0,
+      "measure_number": 108
+    },
+    {
+      "class": "bar",
+      "x": 1296.5,
+      "y": 1191.5,
+      "width": 43.0,
+      "height": 119.0,
+      "measure_number": 109
+    },
+    {
+      "class": "bar",
+      "x": 1693.0,
+      "y": 1192.5,
+      "width": 38.0,
+      "height": 99.0,
+      "measure_number": 110
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 258.5,
+      "y": 1374.5,
+      "width": 37.0,
+      "height": 97.0,
+      "measure_number": 111
+    },
+    {
+      "class": "bar",
+      "x": 493.0,
+      "y": 1374.5,
+      "width": 44.0,
+      "height": 103.0,
+      "measure_number": 112
+    },
+    {
+      "class": "bar",
+      "x": 711.5,
+      "y": 1374.0,
+      "width": 45.0,
+      "height": 108.0,
+      "measure_number": 113
+    },
+    {
+      "class": "long rest bottom",
+      "x": 752.5,
+      "y": 1384.0,
+      "width": 109.0,
+      "height": 114.0,
+      "measure_number": 113,
+      "measures_spanned": 4,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 795.0,
+      "y": 1373.5,
+      "width": 44.0,
+      "height": 109.0,
+      "measure_number": 117
+    },
+    {
+      "class": "bar",
+      "x": 1020.5,
+      "y": 1376.5,
+      "width": 41.0,
+      "height": 103.0,
+      "measure_number": 118
+    },
+    {
+      "class": "bar",
+      "x": 1247.0,
+      "y": 1374.5,
+      "width": 40.0,
+      "height": 109.0,
+      "measure_number": 119
+    },
+    {
+      "class": "bar",
+      "x": 1485.0,
+      "y": 1377.0,
+      "width": 38.0,
+      "height": 100.0,
+      "measure_number": 120
+    },
+    {
+      "class": "bar",
+      "x": 1691.0,
+      "y": 1379.0,
+      "width": 36.0,
+      "height": 94.0,
+      "measure_number": 121
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 438.5,
+      "y": 1531.5,
+      "width": 43.0,
+      "height": 107.0,
+      "measure_number": 122
+    },
+    {
+      "class": "long rest bottom",
+      "x": 498.0,
+      "y": 1541.5,
+      "width": 140.0,
+      "height": 113.0,
+      "measure_number": 122,
+      "measures_spanned": 4,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 557.0,
+      "y": 1533.5,
+      "width": 44.0,
+      "height": 105.0,
+      "measure_number": 126
+    },
+    {
+      "class": "long rest bottom",
+      "x": 662.5,
+      "y": 1569.5,
+      "width": 233.0,
+      "height": 67.0,
+      "measure_number": 126,
+      "measures_spanned": 11,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 769.5,
+      "y": 1533.0,
+      "width": 37.0,
+      "height": 102.0,
+      "measure_number": 137
+    },
+    {
+      "class": "bar",
+      "x": 965.0,
+      "y": 1535.0,
+      "width": 42.0,
+      "height": 98.0,
+      "measure_number": 138
+    },
+    {
+      "class": "bar",
+      "x": 1210.5,
+      "y": 1534.5,
+      "width": 39.0,
+      "height": 103.0,
+      "measure_number": 139
+    },
+    {
+      "class": "bar",
+      "x": 1329.5,
+      "y": 1533.5,
+      "width": 39.0,
+      "height": 107.0,
+      "measure_number": 140
+    },
+    {
+      "class": "bar",
+      "x": 1451.0,
+      "y": 1532.5,
+      "width": 38.0,
+      "height": 103.0,
+      "measure_number": 141
+    },
+    {
+      "class": "bar",
+      "x": 1567.0,
+      "y": 1532.0,
+      "width": 34.0,
+      "height": 102.0,
+      "measure_number": 142
+    },
+    {
+      "class": "bar",
+      "x": 1690.5,
+      "y": 1534.5,
+      "width": 33.0,
+      "height": 95.0,
+      "measure_number": 143
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 267.5,
+      "y": 1692.0,
+      "width": 39.0,
+      "height": 98.0,
+      "measure_number": 144
+    },
+    {
+      "class": "long rest",
+      "x": 317.5,
+      "y": 1681.0,
+      "width": 121.0,
+      "height": 110.0,
+      "measure_number": 144,
+      "measures_spanned": 1,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 368.0,
+      "y": 1692.5,
+      "width": 38.0,
+      "height": 97.0,
+      "measure_number": 145
+    },
+    {
+      "class": "bar",
+      "x": 568.5,
+      "y": 1694.0,
+      "width": 37.0,
+      "height": 102.0,
+      "measure_number": 146
+    },
+    {
+      "class": "bar",
+      "x": 768.0,
+      "y": 1695.5,
+      "width": 36.0,
+      "height": 101.0,
+      "measure_number": 147
+    },
+    {
+      "class": "bar",
+      "x": 974.0,
+      "y": 1695.0,
+      "width": 34.0,
+      "height": 94.0,
+      "measure_number": 148
+    },
+    {
+      "class": "long rest",
+      "x": 1034.5,
+      "y": 1683.5,
+      "width": 145.0,
+      "height": 109.0,
+      "measure_number": 148,
+      "measures_spanned": 6,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 1096.0,
+      "y": 1695.5,
+      "width": 32.0,
+      "height": 91.0,
+      "measure_number": 154
+    },
+    {
+      "class": "long rest",
+      "x": 1181.0,
+      "y": 1678.5,
+      "width": 196.0,
+      "height": 119.0,
+      "measure_number": 154,
+      "measures_spanned": 16,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 1269.5,
+      "y": 1694.5,
+      "width": 31.0,
+      "height": 91.0,
+      "measure_number": 170
+    },
+    {
+      "class": "bar",
+      "x": 1463.0,
+      "y": 1695.5,
+      "width": 38.0,
+      "height": 97.0,
+      "measure_number": 171
+    },
+    {
+      "class": "bar",
+      "x": 1691.5,
+      "y": 1692.5,
+      "width": 37.0,
+      "height": 95.0,
+      "measure_number": 172
+    }
+  ],
+  [
+    {
+      "class": "bar",
+      "x": 261.5,
+      "y": 1866.0,
+      "width": 43.0,
+      "height": 108.0,
+      "measure_number": 173
+    },
+    {
+      "class": "bar",
+      "x": 349.5,
+      "y": 1866.0,
+      "width": 39.0,
+      "height": 102.0,
+      "measure_number": 174
+    },
+    {
+      "class": "bar",
+      "x": 529.0,
+      "y": 1867.5,
+      "width": 32.0,
+      "height": 97.0,
+      "measure_number": 175
+    },
+    {
+      "class": "long rest",
+      "x": 580.0,
+      "y": 1856.5,
+      "width": 120.0,
+      "height": 107.0,
+      "measure_number": 175,
+      "measures_spanned": 3,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 648.5,
+      "y": 1866.5,
+      "width": 37.0,
+      "height": 93.0,
+      "measure_number": 178
+    },
+    {
+      "class": "bar",
+      "x": 832.0,
+      "y": 1866.5,
+      "width": 36.0,
+      "height": 97.0,
+      "measure_number": 179
+    },
+    {
+      "class": "bar",
+      "x": 1054.5,
+      "y": 1864.0,
+      "width": 37.0,
+      "height": 98.0,
+      "measure_number": 180
+    },
+    {
+      "class": "bar",
+      "x": 1139.0,
+      "y": 1864.0,
+      "width": 26.0,
+      "height": 100.0,
+      "measure_number": 181
+    },
+    {
+      "class": "bar",
+      "x": 1239.0,
+      "y": 1866.0,
+      "width": 36.0,
+      "height": 96.0,
+      "measure_number": 182
+    },
+    {
+      "class": "bar",
+      "x": 1337.5,
+      "y": 1868.0,
+      "width": 37.0,
+      "height": 96.0,
+      "measure_number": 183
+    },
+    {
+      "class": "bar",
+      "x": 1437.0,
+      "y": 1867.0,
+      "width": 36.0,
+      "height": 92.0,
+      "measure_number": 184
+    },
+    {
+      "class": "bar",
+      "x": 1533.0,
+      "y": 1868.5,
+      "width": 38.0,
+      "height": 95.0,
+      "measure_number": 185
+    },
+    {
+      "class": "bar",
+      "x": 1689.0,
+      "y": 1866.0,
+      "width": 36.0,
+      "height": 88.0,
+      "measure_number": 186
+    }
+  ],
+  [
+    {
+      "class": "long rest",
+      "x": 212.5,
+      "y": 2023.0,
+      "width": 117.0,
+      "height": 116.0,
+      "measure_number": 186,
+      "measures_spanned": 4,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 257.5,
+      "y": 2031.5,
+      "width": 39.0,
+      "height": 105.0,
+      "measure_number": 190
+    },
+    {
+      "class": "bar",
+      "x": 456.5,
+      "y": 2031.0,
+      "width": 35.0,
+      "height": 100.0,
+      "measure_number": 191
+    },
+    {
+      "class": "bar",
+      "x": 689.0,
+      "y": 2032.0,
+      "width": 36.0,
+      "height": 94.0,
+      "measure_number": 192
+    },
+    {
+      "class": "bar",
+      "x": 903.5,
+      "y": 2029.5,
+      "width": 33.0,
+      "height": 97.0,
+      "measure_number": 193
+    },
+    {
+      "class": "long rest",
+      "x": 955.0,
+      "y": 2020.0,
+      "width": 120.0,
+      "height": 106.0,
+      "measure_number": 193,
+      "measures_spanned": 2,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 1007.0,
+      "y": 2030.5,
+      "width": 34.0,
+      "height": 95.0,
+      "measure_number": 195
+    },
+    {
+      "class": "long rest",
+      "x": 1059.5,
+      "y": 2019.0,
+      "width": 119.0,
+      "height": 106.0,
+      "measure_number": 195,
+      "measures_spanned": 1,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 1110.0,
+      "y": 2030.0,
+      "width": 34.0,
+      "height": 94.0,
+      "measure_number": 196
+    },
+    {
+      "class": "long rest",
+      "x": 1157.5,
+      "y": 2020.0,
+      "width": 113.0,
+      "height": 106.0,
+      "measure_number": 196,
+      "measures_spanned": 1,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 1205.5,
+      "y": 2032.0,
+      "width": 35.0,
+      "height": 96.0,
+      "measure_number": 197
+    },
+    {
+      "class": "bar",
+      "x": 1484.5,
+      "y": 2032.0,
+      "width": 41.0,
+      "height": 104.0,
+      "measure_number": 198
+    },
+    {
+      "class": "bar",
+      "x": 1692.5,
+      "y": 2028.5,
+      "width": 37.0,
+      "height": 97.0,
+      "measure_number": 199
+    }
+  ],
+  [
+    {
+      "class": "long rest",
+      "x": 321.5,
+      "y": 2197.0,
+      "width": 327.0,
+      "height": 118.0,
+      "measure_number": 199,
+      "measures_spanned": 1,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 478.0,
+      "y": 2211.5,
+      "width": 34.0,
+      "height": 103.0,
+      "measure_number": 200
+    },
+    {
+      "class": "long rest",
+      "x": 613.5,
+      "y": 2195.5,
+      "width": 203.0,
+      "height": 115.0,
+      "measure_number": 200,
+      "measures_spanned": 1,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 707.0,
+      "y": 2213.0,
+      "width": 42.0,
+      "height": 112.0,
+      "measure_number": 201
+    },
+    {
+      "class": "long rest",
+      "x": 760.5,
+      "y": 2201.5,
+      "width": 127.0,
+      "height": 111.0,
+      "measure_number": 201,
+      "measures_spanned": 1,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 815.5,
+      "y": 2211.5,
+      "width": 39.0,
+      "height": 115.0,
+      "measure_number": 202
+    },
+    {
+      "class": "long rest",
+      "x": 947.5,
+      "y": 2195.0,
+      "width": 285.0,
+      "height": 116.0,
+      "measure_number": 202,
+      "measures_spanned": 1,
+      "measures_spanned_confident": true
+    },
+    {
+      "class": "bar",
+      "x": 1080.5,
+      "y": 2213.0,
+      "width": 37.0,
+      "height": 108.0,
+      "measure_number": 203
+    },
+    {
+      "class": "bar",
+      "x": 1407.0,
+      "y": 2211.5,
+      "width": 42.0,
+      "height": 103.0,
+      "measure_number": 204
+    }
+  ]
+]
